@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>快速开始 · GitBook</title>
+        <title>接口方法 · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -57,8 +57,10 @@
     <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="home/简易示例.html" />
+    <link rel="next" href="api/登陆接口.html" />
     
+    
+    <link rel="prev" href="home/模块参数.html" />
     
 
     </head>
@@ -87,7 +89,7 @@
         
         
     
-        <li class="chapter active" data-level="1.1" data-path="./">
+        <li class="chapter " data-level="1.1" data-path="./">
             
                 <a href="./">
             
@@ -132,7 +134,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2" data-path="api.html">
+        <li class="chapter active" data-level="1.2" data-path="api.html">
             
                 <a href="api.html">
             
@@ -336,7 +338,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="." >快速开始</a>
+        <a href="." >接口方法</a>
     </h1>
 </div>
 
@@ -351,8 +353,90 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="school-api">School-Api</h1>
-
+                                <h2 id="&#x63A5;&#x53E3;&#x65B9;&#x6CD5;">&#x63A5;&#x53E3;&#x65B9;&#x6CD5;</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Api</th>
+<th style="text-align:left">&#x63CF;&#x8FF0;</th>
+<th style="text-align:left">&#x53C2;&#x6570;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><a href="api/&#x767B;&#x9646;&#x63A5;&#x53E3;.html">user_login</a></td>
+<td style="text-align:left">&#x767B;&#x9646;&#x51FD;&#x6570;</td>
+<td style="text-align:left">account, password, user_type=1, use_session=True</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="api/&#x8BFE;&#x8868;&#x63A5;&#x53E3;.html">get_schedule</a></td>
+<td style="text-align:left">&#x8BFE;&#x8868;&#x67E5;&#x8BE2;</td>
+<td style="text-align:left">schedule_year=None, schedule_term=None, schedule_type=None</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="api/&#x6210;&#x7EE9;&#x63A5;&#x53E3;.html">get_score</a></td>
+<td style="text-align:left">&#x6210;&#x7EE9;&#x67E5;&#x8BE2;</td>
+<td style="text-align:left">score_year=None, score_term=None, use_api=0</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="api/&#x7528;&#x6237;&#x4FE1;&#x606F;.html">get_info</a></td>
+<td style="text-align:left">&#x7528;&#x6237;&#x4FE1;&#x606F;&#x67E5;&#x8BE2;</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="api/&#x6559;&#x5B66;&#x573A;&#x5730;.html">get_place_schedule</a></td>
+<td style="text-align:left">&#x6559;&#x5B66;&#x573A;&#x5730;&#x8BFE;&#x8868;&#x67E5;&#x8BE2;&#xFF08;&#x53EF;&#x7528;&#x4E8E;&#x7A7A;&#x6559;&#x5BA4;&#x67E5;&#x8BE2;&#xFF09;</td>
+<td style="text-align:left">campus_list=None, building_list=None, classroom_type_list=None, classroom_name_list=None, filter_campus_list=None, filter_building_list=None, filter_classroom_type_list=None</td>
+</tr>
+</tbody>
+</table>
+<h2 id="&#x63A5;&#x53E3;&#x6743;&#x9650;">&#x63A5;&#x53E3;&#x6743;&#x9650;</h2>
+<table>
+    <tr align="center">
+        <td rowspan="2">&#x7C7B;&#x578B; \&#x6743;&#x9650;</td>
+        <td colspan="2">&#x4E2A;&#x4EBA;&#x8BFE;&#x8868;&#x7C7B;&#x578B;</td>
+        <td colspan="3">&#x73ED;&#x7EA7;&#x8BFE;&#x8868;&#x7C7B;&#x578B;</td>
+        <td rowspan="2">&#x4E2A;&#x4EBA;&#x4FE1;&#x606F;</td>
+        <td rowspan="2">&#x6210;&#x7EE9;&#x4FE1;&#x606F;</td>
+    </tr>
+    <tr align="center">
+        <td>&#x5B66;&#x751F;</td>
+        <td>&#x6559;&#x5E08;</td>
+        <td>&#x5B66;&#x751F;</td>
+        <td>&#x6559;&#x5E08;</td>
+        <td>&#x6559;&#x5B66;&#x573A;&#x5730;</td>
+    </tr>
+    <tr align="center">
+        <td>&#x5B66;&#x751F;</td>
+        <td>&#x221A;</td>
+        <td></td>
+        <td>&#x221A;</td>
+        <td></td>
+        <td></td>
+        <td>&#x221A;</td>
+        <td>&#x221A;</td>
+    </tr>
+    <tr align="center">
+        <td>&#x6559;&#x5E08;</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>&#x221A;</td>
+        <td></td>
+        <td>&#x221A;</td>
+        <td></td>
+    </tr>
+    <tr align="center">
+        <td>&#x90E8;&#x95E8;</td>
+        <td></td>
+        <td></td>
+        <td>&#x221A;</td>
+        <td></td>
+        <td>&#x221A;</td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
                                 
                                 </section>
                             
@@ -379,8 +463,12 @@
 
             
                 
+                <a href="home/模块参数.html" class="navigation navigation-prev " aria-label="Previous page: 模块参数">
+                    <i class="fa fa-angle-left"></i>
+                </a>
                 
-                <a href="home/简易示例.html" class="navigation navigation-next navigation-unique" aria-label="Next page: 简易示例">
+                
+                <a href="api/登陆接口.html" class="navigation navigation-next " aria-label="Next page: 登陆方法">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -391,7 +479,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"快速开始","level":"1.1","depth":1,"next":{"title":"简易示例","level":"1.1.1","depth":2,"path":"home/简易示例.md","ref":"home/简易示例.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"README.md","mtime":"2018-10-10T08:54:03.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-10-11T02:44:23.381Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"接口方法","level":"1.2","depth":1,"next":{"title":"登陆方法","level":"1.2.1","depth":2,"path":"api/登陆接口.md","ref":"api/登陆接口.md","articles":[]},"previous":{"title":"模块参数","level":"1.1.2","depth":2,"path":"home/模块参数.md","ref":"home/模块参数.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"api.md","mtime":"2018-10-11T01:33:44.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-10-11T02:44:23.381Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
