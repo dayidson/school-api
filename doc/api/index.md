@@ -13,7 +13,7 @@
 
 <table>
     <tr align="center">
-        <td rowspan="2">类型 \权限</td>
+        <td rowspan="2">用户\权限</td>
         <td colspan="2">个人课表类型</td>
         <td colspan="3">班级课表类型</td>
         <td rowspan="2">个人信息</td>

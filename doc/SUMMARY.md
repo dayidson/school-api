@@ -11,8 +11,7 @@
     * [教学场地课表](api/教学场地.md)
 * 进阶用法
     * [异常处理](usage/异常处理.md)
-    * [缓存使用](usage/缓存使用.md)
 * 参考例子
-    * [网页示例](example/课表接口.md)
-    * [公众号](example/课表接口.md)
+    * [网页api](example/网页api.md)
+    * [公众号](example/公众号.md)
 
